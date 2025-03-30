@@ -1,0 +1,207 @@
+.main-content {
+  padding-top: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*BODY-INTRO*/
+.content-header-banner {
+  display: flex;
+  padding-top: 150px;
+  padding-bottom: 200px;
+  width: 100%;
+  background-image: url(https://sapphirecreditsolutions.com/wp-content/uploads/2025/02/header.jpg);
+  background-size: cover;
+  position: fixed;
+  justify-content: center;
+  z-index: -999;
+}
+
+.content-header-banner::after {
+  content: "";
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.content-header-banner-text {
+  margin: 0px 300px 0px 300px;
+  width: 60%;
+}
+/*BODY-INTRO*/
+
+/*BODY-SERVICES*/
+.content-services {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  position: fixed;
+  z-index: -99;
+  top: 400px;
+}
+
+.content-boxes {
+  background-image: url(https://sapphirecreditsolutions.com/wp-content/uploads/2025/02/box-1-1.jpg);
+  height: 300px;
+  width: 300px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.content-boxes h2, .content-boxes p {
+  color: white;
+  text-align: center;
+  margin: 10px;
+}
+
+/*BODY-SERVICES*/
+
+/*BODY-WHOWEARE*/
+.content-whoweare {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  z-index: 99;
+  margin-top: 620px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 610px;
+  background-color: white;
+}
+
+.ctn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+}
+
+.content-whoweare-img{
+  padding: 0px;
+  width: 500px;
+}
+
+.content-whoweare-text {
+  padding: 0px 100px 0px 100px;
+}
+
+.content-whoweare-text h4, .content-whoweare-text h1, .content-whoweare-text p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.content-whoweare-solutions {
+  display: grid;
+  grid-template-columns: 1fr 1fr;;
+}
+
+.content-whoweare-solutions-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.checksignimg-container {
+  flex: 1;
+}
+
+.solution-text {
+  flex: 9;
+}
+
+/*BODY-WHOWEARE*/
+
+/*BODY-WHYCHOOSEUS*/
+.content-whychooseus {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #f1f1f1;
+  margin-top: 1230px;
+  justify-content: center;
+  align-items: center;
+  z-index: 99;
+  padding-bottom: 50px;
+}
+.content-whychooseus-text {
+  text-align: center;
+}
+
+/*BODY-WHYCHOOSEUS*/
+
+/*BODY-OURMISSION*/
+  .content-ourmission-wrapper {
+    display: flex;
+    flex-direction: row;
+    background-color: #E9E9F4;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .content-ourmission-right-section {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .ourmission-desc-wrapper {
+    width: 80%;
+  }
+
+  .ourmission-button {
+    background-color: #466ADC;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 20px;
+  }
+  .content-ourmission-left-section {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+/*BODY-OURMISSION*/
+
+/*BODY-PRODUCTS YOU DESERVE*/
+  .content-products-you-deserve-wrapper {
+    display: flex;
+    flex-direction: column;
+    background-color: #E9E9F4;
+    width: 100%;
+    justify-content: center;
+    padding-top: 20px;
+  }
+
+  .products-you-deserve-grid-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+  .products-you-deserve-h1text{
+    text-align: center;
+  }
+
+  .products-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 80%;
+  }
+
+  .product-box {
+    margin: 15px;
+    padding: 15px;
+    background-color: white;
+  }
+/*BODY-PRODUCTS YOU DESERVE*/

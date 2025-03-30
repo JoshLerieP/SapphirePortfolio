@@ -1,0 +1,23 @@
+@import url('https://fonts.cdnfonts.com/css/conthrax');
+@import url('https://fonts.cdnfonts.com/css/syne');
+*{
+  margin: 0px;
+  padding: 0px;
+}
+p {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-family: 'Syne', sans-serif;
+}
+
+h2 {
+  font-family: 'Conthrax', sans-serif;
+}
+h4 {
+  font-family: 'Conthrax', sans-serif;
+}
+
